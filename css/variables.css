@@ -1,0 +1,11 @@
+:root {
+  --green: #00a843;
+  --black: #2a3842;
+  --white: #ffffff;
+  --font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Ubuntu, Arial, sans-serif;
+  --font-size-bigger: 24px;
+  --font-size-big: 20px;
+  --font-size-normal: 16px;
+  --font-size-small: 14px;
+}

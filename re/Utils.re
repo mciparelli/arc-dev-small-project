@@ -1,0 +1,1 @@
+let getInputValue = event => event->ReactEvent.Form.currentTarget##value;

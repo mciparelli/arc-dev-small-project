@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0;
+}
+
+hr {
+  border-color: rgba(var(--black), 0.2);
+  width: 100%;
+}
+
+input {
+  height: 42px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-big);
+  font-weight: normal;
+  padding: 0 0.2em;
+  color: var(--black);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border-color: rgba(var(--black), 0.2);
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input::placeholder {
+  color: rgba(var(--black), 0.6);
+}
+
+button {
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  font-weight: normal;
+  text-transform: uppercase;
+  height: 40px;
+  padding: 0 2em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
